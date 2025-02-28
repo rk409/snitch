@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.container header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+.container header p{
+    color: white;
+    font-weight: 400;
+}
+.container .top-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 0px 3px rgb(207, 207, 207);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.container .top-box .logo{
+    cursor: pointer;
+}
+.container .top-box .logo img{
+    width: 200px;  
+}
+.container .top-box .menubar{
+    padding: 5px;
+}
+.container .top-box .menubar a{
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+.container .top-box .icon-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.container .top-box .icon-gallery a{
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 200px;
+}
+
+.co-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.country-select {
+    width: 72px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.country-select img {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+}
+
+.phone-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.phone-input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.request-otp {
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.otp-info {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e2e8f0;
+}
+
+.divider span {
+    position: relative;
+    background-color: white;
+    padding: 0 12px;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.button-class{
+    display: flex;
+    justify-content: center;
+}
+
+.email-button {
+    padding: 15px 50px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.email-icon {
+    width: 16px;
+    height: 16px;
+}
+footer {
+    background-color: white;
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-column ul li .unline{
+    text-decoration: underline;
+}
+
+.newsletter-section {
+    grid-column: 1 / -1;
+}
+
+.newsletter-section h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    max-width: 15rem;
+    border-bottom: 2px solid black;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+.made-in-india {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+.made-in-india i {
+  color:blue;
+}
+
